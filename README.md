@@ -23,7 +23,7 @@ List comprehension consists of:
 - Then a zero or more if clauses depending on the complexity of the list  
 
 # Map and Filter
-* The map function works by applying a function to iterable data (lists). For example:  
+* map is a built in function works by applying a function to iterable data (lists). For example:  
 ```python
 def square(num):
     ''' squares the given num argument '''
@@ -37,6 +37,19 @@ print('Original Array:', array)
 print('Array Squared:', square_array)
 ```
 * The map function works by performing the square function to each value in 'array'
+
+```python
+def upper(x):
+    ''' upper() turns string x into its uppercased counter part '''
+    return x.upper()
+
+word = 'hello world!'
+upper_word = ''.join(list(map(upper, word)))
+
+print(word)
+print(upper_word)
+```
+* The following code is a good example of how map is not always necessary, and before using map consider any much easier, simpler ways to do the same thing. For example, you could have just used word.upper()
 
 
 
