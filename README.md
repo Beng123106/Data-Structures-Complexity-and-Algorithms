@@ -9,7 +9,7 @@ Rules for a matrix:
 - All items in the 2D List must have the same data types
 - Since indexing always starts at 0 ... row 1 is technically located at matrix_A[0]
 
-* list comprehension is like manipulating a list to do certain things, for example, creating a list that contains the squares of numbers from 0 - i
+* "List comprehension in Python is a concise way of creating lists from the ones that already exist. It provides a shorter syntax to create new lists from existing lists and their values." - Google
 ```python 
 squares = [i**2 for i in range(10)]
 
