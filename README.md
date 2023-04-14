@@ -23,7 +23,7 @@ print('Our new result: %s' % squares)
 - Then a zero or more if clauses depending on the complexity of the list  
 
 # Map and Filter
-* map is a built in function that works by applying a function to iterable data (lists). For example:  
+## map is a built in function that works by applying a function to iterable data (lists). For example:  
 ```python
 def square(num):
     ''' squares the given num argument '''
@@ -51,6 +51,17 @@ print(upper_word)
 ```
 * The following code is a good example of how map is not always necessary, and before using map consider any much easier, simpler ways to do the same thing. For example, you could have just used word.upper()
 
+### Filter Function
+* the function provided for filter() must return a boolean value
+* Example of how it works:
+```python 
+ def isOdd(x):
+    ''' isOdd() returns True if x is odd.'''
+    return x % 2 != 0
+
+array = list(range(1,101))
+odds = list(filter(isOdd, array))
+```
 
 
 
