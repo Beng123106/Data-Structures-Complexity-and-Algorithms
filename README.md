@@ -20,7 +20,23 @@ List comprehension consists of:
 
 - A Square Bracket containing an expression that describes the list
 - One or more For clause to explain its members
-- Then a zero or more if clauses depending on the complexity of the list
+- Then a zero or more if clauses depending on the complexity of the list  
+
+# Map and Filter
+* The map function works by applying a function to iterable data (lists). For example:  
+```python
+def square(num):
+    ''' squares the given num argument '''
+    return num ** 2
+# end of square
+
+array = list(range(1,11))
+square_array = list(map(square, array))
+
+print('Original Array:', array)
+print('Array Squared:', square_array)
+```
+* The map function works by performing the square function to each value in 'array'
 
 
 
