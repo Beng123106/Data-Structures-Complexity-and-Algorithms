@@ -36,7 +36,7 @@ square_array = list(map(square, array))
 print('Original Array:', array)
 print('Array Squared:', square_array)
 ```
-* The map function works by performing the square function to each value in 'array'
+* The map function works by performing the square function to each value in 'array'. It is like in math how you have f(g(x))
 
 ```python
 def upper(x):
@@ -62,7 +62,17 @@ print(upper_word)
 array = list(range(1,101))
 odds = list(filter(isOdd, array))
 ```
-
+# Sets
+* a set is an unordered collection with no duplicates
+* Why do we even use sets? In computer memory, it creates unique memory adresses for each value in the set. Since every item has unique adresses, if you look for a value in the set it will go directly to that memory adress instead of check each individual value to see if it exists (like it does for a list).
+* denoted with {}
+* a set does not need to be ordered
+* duplicate values are disregarded (will be considered as only showing once)
+* Union function just adds 2 sets into one
+* Intersection function finds overlapping datas between 2 sets
+* You can subtract sets A-B takes overlapping values from B away from A
+* Symmetric difference is like the opposite of intersection, to find values that dont overlap
+* set comprehension exists just like list comprehension
 
 
 
