@@ -65,6 +65,7 @@ odds = list(filter(isOdd, array))
 # Sets
 * a set is an unordered collection with no duplicates
 * Why do we even use sets? In computer memory, it creates unique memory adresses for each value in the set. Since every item has unique adresses, if you look for a value in the set it will go directly to that memory adress instead of check each individual value to see if it exists (like it does for a list).
+* sets are useful for answering "is this in my data set?" efficiently
 * denoted with {}
 * a set does not need to be ordered
 * duplicate values are disregarded (will be considered as only showing once)
