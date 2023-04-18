@@ -75,5 +75,15 @@ odds = list(filter(isOdd, array))
 * Symmetric difference is like the opposite of intersection, to find values that dont overlap
 * set comprehension exists just like list comprehension
 
+# Dictionary
+* data type that stores a collectiom of (key, value) pairs such that each possible key appears at most one time
+* common operations are aadding, removing, modifying, lookup a value associated with a particular key
+## why are dictionaries useful?
+* our index, called keys, doesnt need to be ordered  
+
+* if you want your item in a special location, you can
+* to create a dictionary you use dict/empty curly braces {}
+* 
+
 
 
